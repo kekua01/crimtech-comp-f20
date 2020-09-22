@@ -1,43 +1,35 @@
-# Snek
-Work in progress.
+# Snek: A Python Project
 
 ## Setting Up
-1. `pip install pygame`
-2. Terminal text editor. I recommend `micro`, which can be installed with `curl https://getmic.ro | bash` and then `mv micro /usr/bin`.
-3. Code editor. I recommend (VSCode)[https://code.visualstudio.com/].
-3. Windows people need to get xserver to load the Snake. Alternatively, they can get python for windows. This is a one-time thing...
+### More work with Git
+If you look on your local folder, the `snek` folder is almost empty! You will need to set up `upstream` and `pull`.
 
+In your terminal, type the following:
+```
+git remote add upstream https://github.com/crimtech/crimtech-comp-f20.git
+git pull upstream master
+git push origin master
+```
 
-## Python Tutorial
-1. Hello World
-2. Variables
-3. Assignments
-4. if statements
-5. for loops
-6. while loops
-7. lists
-8. dictionaries
-9. imports
-10. classes
+The second line updates your local folder with the updated version of this directory, and the third line pushes these changes to your own Github repository.
 
-# The Game
-Familiarize yourself with the code. There are two classes, `Snake` and `Apple`. If you boot up, you can see a red square and a black square. The black square is the snake, and the red square is the Apple!
-* The board: from (0,0) at top left to (23,23) at bottom right. Directions are defined in a dictionary.
+**Do not continue until you have finished this step.**
+### Code Editor
+As we start coding, a code editor is invaluable. It adds syntax highlighting, auto completion and other generally nice features.
 
-## Required Features
-1. Move the snake!
-2. Check for collision.
-3. Turning the snake.
-4. Self Collisions.
-5. Eating the apple.
-6. Moving the apple.
-7. Growing the snake.
-8. Display the score.
+We recommend [VSCode](https://code.visualstudio.com/), though Sublime Text also has a big following.
 
-## Optional Features
-9. Incremental difficulty
-10. Wait for user input
-11. Try again!
-12. Color themes
-13. Better Graphics
-14. Coyote Time
+### Windows Users: Run this lab locally
+`Snake` requires a video playback device. However, inside the WSL terminal we do not have that feature. One approach would be to install XServer, but it is a lot of hassle and debuggin for not a great result.
+
+If you are running Windows, please install Python locally.
+
+### `pip install pygame`
+As the title says, please run `pip install pygame` to install the necessary module.
+
+## Individual or Teamwork track?
+Please sign up for the track you will do [here](https://forms.gle/EUF76mH1TamrbFkL8) by Wednesday, 9/23.
+* Individual track is good for people who have coding experience and would rather work alone. You need to submit a working Snake game.
+* Teamwork track is good either if you have less experience, or if you want to meet some new people. Your commitment: answers to the python tutorial, and 90 minutes of your time next week.
+
+Follow the corresponding md file to continue.

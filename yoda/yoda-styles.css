@@ -1,0 +1,36 @@
+.yoda-display {
+	width: 100%;
+}
+
+#yoda-pic {
+	display: block;
+	margin: 15px auto;
+	width: 65%;
+	height: auto;
+}
+
+#yoda-quote {
+	text-align: center;
+	font-size: 18px;
+	font-family: Arial;
+}
+
+.chat-container {
+	width: 100%;
+}
+
+.chat-header {
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	font-family: Verdana;
+	margin-top: 70px;
+}
+
+#chat-box {
+	width: 300px;
+}
+#chat-box, .send {
+	display: block;
+	margin: 10px auto;
+}

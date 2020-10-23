@@ -8,13 +8,18 @@
     <script>
         console.log("You found me!");
         function square(i) {
-            // Your code here!
-            return 0
+            return (typeof i == "number" ? i*i : -1);
         }
 
         function numberString(i) {
-            // Your code here!
-            return ""
+            if (typeof i == "number" && i > 0) {
+                ans = "";
+                for (var j = 0; j <= i; j++) {
+                    ans += j.toString();
+                }
+                return ans
+            }
+            return -1
         }
     </script>
 </body>
